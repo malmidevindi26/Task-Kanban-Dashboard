@@ -1,5 +1,5 @@
 export type Priority = 'LOW' | 'MEDIUM' | 'HIGH'
-export type Status = 'TOOD' | 'IN_PROGRESS' | 'DONE'
+export type Status = 'TODO' | 'IN_PROGRESS' | 'DONE'
 
 export interface Task{
     id: string
